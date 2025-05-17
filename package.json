@@ -1,0 +1,31 @@
+{
+  "name": "vuetify-tailwind-bridge",
+  "version": "0.1.0",
+  "description": "A Tailwind CSS plugin to bring Vuetify utility classes for autocomplete and migration use cases.",
+  "keywords": [
+    "vuetify",
+    "tailwindcss",
+    "plugin",
+    "vuetify-utility",
+    "vuetify-tailwind",
+    "tailwindcss-plugin",
+    "vuetify-autocomplete",
+    "tailwind-migration",
+    "design-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugitata/vuetify-tailwind-bridge"
+  },
+  "author": "YOUR_NAME",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.8.3"
+  }
+}
