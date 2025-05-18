@@ -1,5 +1,5 @@
 {
-  "name": "vuetify-tailwind-bridge",
+  "name": "vuetify-tailwind-utility-bridge",
   "version": "0.1.0",
   "description": "A Tailwind CSS plugin to bring Vuetify utility classes for autocomplete and migration use cases.",
   "keywords": [
@@ -25,7 +25,12 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "@types/node": "^22.15.18",
+    "gonzales-pe": "^4.3.0",
+    "postcss": "^8.5.3",
+    "postcss-scss": "^4.0.9",
     "tailwindcss": "^3.0.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vuetify": "^3.8.5"
   }
 }

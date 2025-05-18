@@ -1,24 +1,22 @@
 import plugin from 'tailwindcss/plugin';
-import display from './display';
-import flex from './flex';
-import borderRadius from './borderRadius';
-import spacing from './spacing';
-import typography from './typography';
-import elevation from './elevation';
-import grid from './grid';
-import colors from './colors';
+import { vuetifyUtilities } from './generated/vuetifyUtilities';
 
-export const vuetifyPlugin = plugin(function ({
-  addUtilities,
-  matchUtilities,
-  theme,
-}) {
-  display({ addUtilities });
-  flex({ addUtilities });
-  borderRadius({ matchUtilities, theme });
-  spacing({ matchUtilities, theme });
-  colors({ matchUtilities, theme });
-  typography({ addUtilities });
-  elevation({ addUtilities });
-  grid({ addUtilities });
+export const vuetifyPlugin = plugin(function ({ addUtilities }) {
+  // vuetifyUtilities配列からユーティリティを生成
+  vuetifyUtilities.forEach((util) => {
+    const props = util.props as Record<string, string>;
+    const className = props.class || util.key;
+    const property = props.property;
+    const values = props.values;
+    if (className && property && values) {
+      // valuesがスペース区切りの場合
+      values.split(' ').forEach((val: string) => {
+        addUtilities({
+          [`.${className}-${val}`]: {
+            [property]: val,
+          },
+        });
+      });
+    }
+  });
 });
