@@ -2,5 +2,7 @@
 module.exports = {
   corePlugins: [],
   content: ['./playground/**/*.vue'],
-  plugins: [require('./src/index.ts')],
+  // plugins: [textBrandPrimary],
+  // plugins: [require('./dist/src/index.js')],
+  plugins: [require('./src/index.js')],
 };

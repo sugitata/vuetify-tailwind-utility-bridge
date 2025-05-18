@@ -1,1423 +1,1433 @@
 // Auto-generated from Vuetify _utilities.scss
 export const vuetifyUtilities = [
   {
-    "key": "overflow",
-    "props": {
-      "property": "overflow",
-      "values": "auto hidden visible scroll"
-    }
+    key: 'overflow',
+    props: {
+      property: 'overflow',
+      values: 'auto hidden visible scroll',
+    },
   },
   {
-    "key": "overflow-x",
-    "props": {
-      "property": "overflow-x",
-      "values": "auto hidden scroll"
-    }
+    key: 'overflow-x',
+    props: {
+      property: 'overflow-x',
+      values: 'auto hidden scroll',
+    },
   },
   {
-    "key": "overflow-y",
-    "props": {
-      "property": "overflow-y",
-      "values": "auto hidden scroll"
-    }
+    key: 'overflow-y',
+    props: {
+      property: 'overflow-y',
+      values: 'auto hidden scroll',
+    },
   },
   {
-    "key": "display",
-    "props": {
-      "responsive": "true",
-      "print": "true",
-      "property": "display",
-      "class": "d",
-      "values": "none inline inline-block block table table-row table-cell flex inline-flex"
-    }
+    key: 'display',
+    props: {
+      responsive: 'true',
+      print: 'true',
+      property: 'display',
+      class: 'd',
+      values:
+        'none inline inline-block block table table-row table-cell flex inline-flex',
+    },
   },
   {
-    "key": "float",
-    "props": {
-      "responsive": "true",
-      "print": "true",
-      "property": "float",
-      "class": "float",
-      "values": "none left right"
-    }
+    key: 'float',
+    props: {
+      responsive: 'true',
+      print: 'true',
+      property: 'float',
+      class: 'float',
+      values: 'none left right',
+    },
   },
   {
-    "key": "float:rtl",
-    "props": {
-      "responsive": "true",
-      "print": "true",
-      "property": "float",
-      "class": "float",
-      "start": "right"
-    }
+    key: 'float:rtl',
+    props: {
+      responsive: 'true',
+      print: 'true',
+      property: 'float',
+      class: 'float',
+      start: 'right',
+    },
   },
   {
-    "key": "float:ltr",
-    "props": {
-      "responsive": "true",
-      "print": "true",
-      "property": "float",
-      "class": "float",
-      "start": "left"
-    }
+    key: 'float:ltr',
+    props: {
+      responsive: 'true',
+      print: 'true',
+      property: 'float',
+      class: 'float',
+      start: 'left',
+    },
   },
   {
-    "key": "flex",
-    "props": {
-      "responsive": "true",
-      "property": "flex",
-      "'1-1'": "1 1 auto",
-      "'1-0'": "1 0 auto",
-      "'0-1'": "0 1 auto",
-      "'0-0'": "0 0 auto",
-      "'1-1-100'": "1 1 100%",
-      "'1-0-100'": "1 0 100%",
-      "'0-1-100'": "0 1 100%",
-      "'0-0-100'": "0 0 100%",
-      "'1-1-0'": "1 1 0",
-      "'1-0-0'": "1 0 0",
-      "'0-1-0'": "0 1 0",
-      "'0-0-0'": "0 0 0"
-    }
+    key: 'flex',
+    props: {
+      responsive: 'true',
+      property: 'flex',
+      "'1-1'": '1 1 auto',
+      "'1-0'": '1 0 auto',
+      "'0-1'": '0 1 auto',
+      "'0-0'": '0 0 auto',
+      "'1-1-100'": '1 1 100%',
+      "'1-0-100'": '1 0 100%',
+      "'0-1-100'": '0 1 100%',
+      "'0-0-100'": '0 0 100%',
+      "'1-1-0'": '1 1 0',
+      "'1-0-0'": '1 0 0',
+      "'0-1-0'": '0 1 0',
+      "'0-0-0'": '0 0 0',
+    },
   },
   {
-    "key": "flex-direction",
-    "props": {
-      "responsive": "true",
-      "property": "flex-direction",
-      "class": "flex",
-      "values": "row column row-reverse column-reverse"
-    }
+    key: 'flex-direction',
+    props: {
+      responsive: 'true',
+      property: 'flex-direction',
+      class: 'flex',
+      values: 'row column row-reverse column-reverse',
+    },
   },
   {
-    "key": "flex-grow",
-    "props": {
-      "responsive": "true",
-      "property": "flex-grow",
-      "class": "flex",
-      "grow-1": "1"
-    }
+    key: 'flex-grow',
+    props: {
+      responsive: 'true',
+      property: 'flex-grow',
+      class: 'flex',
+      'grow-1': '1',
+    },
   },
   {
-    "key": "flex-shrink",
-    "props": {
-      "responsive": "true",
-      "property": "flex-shrink",
-      "class": "flex",
-      "shrink-1": "1"
-    }
+    key: 'flex-shrink',
+    props: {
+      responsive: 'true',
+      property: 'flex-shrink',
+      class: 'flex',
+      'shrink-1': '1',
+    },
   },
   {
-    "key": "flex-wrap",
-    "props": {
-      "responsive": "true",
-      "property": "flex-wrap",
-      "class": "flex",
-      "values": "wrap nowrap wrap-reverse"
-    }
+    key: 'flex-wrap',
+    props: {
+      responsive: 'true',
+      property: 'flex-wrap',
+      class: 'flex',
+      values: 'wrap nowrap wrap-reverse',
+    },
   },
   {
-    "key": "justify-content",
-    "props": {
-      "responsive": "true",
-      "property": "justify-content",
-      "class": "justify",
-      "end": "flex-end",
-      "center": "center",
-      "space-between": "space-between",
-      "space-around": "space-around",
-      "space-evenly": "space-evenly"
-    }
+    key: 'justify-content',
+    props: {
+      responsive: 'true',
+      property: 'justify-content',
+      class: 'justify',
+      end: 'flex-end',
+      center: 'center',
+      'space-between': 'space-between',
+      'space-around': 'space-around',
+      'space-evenly': 'space-evenly',
+    },
   },
   {
-    "key": "align-items",
-    "props": {
-      "responsive": "true",
-      "property": "align-items",
-      "class": "align",
-      "end": "flex-end",
-      "center": "center",
-      "baseline": "baseline",
-      "stretch": "stretch"
-    }
+    key: 'align-items',
+    props: {
+      responsive: 'true',
+      property: 'align-items',
+      class: 'align',
+      end: 'flex-end',
+      center: 'center',
+      baseline: 'baseline',
+      stretch: 'stretch',
+    },
   },
   {
-    "key": "align-content",
-    "props": {
-      "responsive": "true",
-      "property": "align-content",
-      "end": "flex-end",
-      "center": "center",
-      "space-between": "space-between",
-      "space-around": "space-around",
-      "space-evenly": "space-evenly",
-      "stretch": "stretch"
-    }
+    key: 'align-content',
+    props: {
+      responsive: 'true',
+      property: 'align-content',
+      end: 'flex-end',
+      center: 'center',
+      'space-between': 'space-between',
+      'space-around': 'space-around',
+      'space-evenly': 'space-evenly',
+      stretch: 'stretch',
+    },
   },
   {
-    "key": "align-self",
-    "props": {
-      "responsive": "true",
-      "property": "align-self",
-      "start": "flex-start",
-      "end": "flex-end",
-      "center": "center",
-      "baseline": "baseline",
-      "stretch": "stretch"
-    }
+    key: 'align-self',
+    props: {
+      responsive: 'true',
+      property: 'align-self',
+      start: 'flex-start',
+      end: 'flex-end',
+      center: 'center',
+      baseline: 'baseline',
+      stretch: 'stretch',
+    },
   },
   {
-    "key": "order",
-    "props": {
-      "0": "0",
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
-      "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
-      "11": "11",
-      "12": "12",
-      "responsive": "true",
-      "property": "order",
-      "last": "13"
-    }
-  },
-  {
-    "key": "gap",
-    "props": {
-      "responsive": "true",
-      "property": "gap",
-      "class": "ga",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'order',
+    props: {
+      values: {
+        '0': '0',
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
+        '6': '6',
+        '7': '7',
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
       },
-      "(auto": "auto"
-    }
+      responsive: 'true',
+      property: 'order',
+      last: '13',
+    },
   },
   {
-    "key": "gap-row",
-    "props": {
-      "responsive": "true",
-      "property": "row-gap",
-      "class": "gr",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'gap',
+    props: {
+      responsive: 'true',
+      property: 'gap',
+      class: 'ga',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "gap-column",
-    "props": {
-      "responsive": "true",
-      "property": "column-gap",
-      "class": "gc",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'gap-row',
+    props: {
+      responsive: 'true',
+      property: 'row-gap',
+      class: 'gr',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin",
-    "props": {
-      "responsive": "true",
-      "property": "margin",
-      "class": "ma",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'gap-column',
+    props: {
+      responsive: 'true',
+      property: 'column-gap',
+      class: 'gc',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-x",
-    "props": {
-      "responsive": "true",
-      "property": "margin-right margin-left",
-      "class": "mx",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin',
+    props: {
+      responsive: 'true',
+      property: 'margin',
+      class: 'ma',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-y",
-    "props": {
-      "responsive": "true",
-      "property": "margin-top margin-bottom",
-      "class": "my",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-x',
+    props: {
+      responsive: 'true',
+      property: 'margin-right margin-left',
+      class: 'mx',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-top",
-    "props": {
-      "responsive": "true",
-      "property": "margin-top",
-      "class": "mt",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-y',
+    props: {
+      responsive: 'true',
+      property: 'margin-top margin-bottom',
+      class: 'my',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-right",
-    "props": {
-      "responsive": "true",
-      "property": "margin-right",
-      "class": "mr",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-top',
+    props: {
+      responsive: 'true',
+      property: 'margin-top',
+      class: 'mt',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-bottom",
-    "props": {
-      "responsive": "true",
-      "property": "margin-bottom",
-      "class": "mb",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-right',
+    props: {
+      responsive: 'true',
+      property: 'margin-right',
+      class: 'mr',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-left",
-    "props": {
-      "responsive": "true",
-      "property": "margin-left",
-      "class": "ml",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-bottom',
+    props: {
+      responsive: 'true',
+      property: 'margin-bottom',
+      class: 'mb',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-start",
-    "props": {
-      "responsive": "true",
-      "property": "margin-inline-start",
-      "class": "ms",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-left',
+    props: {
+      responsive: 'true',
+      property: 'margin-left',
+      class: 'ml',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "margin-end",
-    "props": {
-      "responsive": "true",
-      "property": "margin-inline-end",
-      "class": "me",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px",
-        "auto": "auto"
+    key: 'margin-start',
+    props: {
+      responsive: 'true',
+      property: 'margin-inline-start',
+      class: 'ms',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
       },
-      "(auto": "auto"
-    }
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "negative-margin",
-    "props": {
-      "responsive": "true",
-      "property": "margin",
-      "class": "ma",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'margin-end',
+    props: {
+      responsive: 'true',
+      property: 'margin-inline-end',
+      class: 'me',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+        auto: 'auto',
+      },
+      '(auto': 'auto',
+    },
   },
   {
-    "key": "negative-margin-x",
-    "props": {
-      "responsive": "true",
-      "property": "margin-right margin-left",
-      "class": "mx",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin',
+    props: {
+      responsive: 'true',
+      property: 'margin',
+      class: 'ma',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-y",
-    "props": {
-      "responsive": "true",
-      "property": "margin-top margin-bottom",
-      "class": "my",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-x',
+    props: {
+      responsive: 'true',
+      property: 'margin-right margin-left',
+      class: 'mx',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-top",
-    "props": {
-      "responsive": "true",
-      "property": "margin-top",
-      "class": "mt",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-y',
+    props: {
+      responsive: 'true',
+      property: 'margin-top margin-bottom',
+      class: 'my',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-right",
-    "props": {
-      "responsive": "true",
-      "property": "margin-right",
-      "class": "mr",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-top',
+    props: {
+      responsive: 'true',
+      property: 'margin-top',
+      class: 'mt',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-bottom",
-    "props": {
-      "responsive": "true",
-      "property": "margin-bottom",
-      "class": "mb",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-right',
+    props: {
+      responsive: 'true',
+      property: 'margin-right',
+      class: 'mr',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-left",
-    "props": {
-      "responsive": "true",
-      "property": "margin-left",
-      "class": "ml",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-bottom',
+    props: {
+      responsive: 'true',
+      property: 'margin-bottom',
+      class: 'mb',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-start",
-    "props": {
-      "responsive": "true",
-      "property": "margin-inline-start",
-      "class": "ms",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-left',
+    props: {
+      responsive: 'true',
+      property: 'margin-left',
+      class: 'ml',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "negative-margin-end",
-    "props": {
-      "responsive": "true",
-      "property": "margin-inline-end",
-      "class": "me",
-      "values": {
-        "\"n1\"": "-4px",
-        "\"n2\"": "-8px",
-        "\"n3\"": "-12px",
-        "\"n4\"": "-16px",
-        "\"n5\"": "-20px",
-        "\"n6\"": "-24px",
-        "\"n7\"": "-28px",
-        "\"n8\"": "-32px",
-        "\"n9\"": "-36px",
-        "\"n10\"": "-40px",
-        "\"n11\"": "-44px",
-        "\"n12\"": "-48px",
-        "\"n13\"": "-52px",
-        "\"n14\"": "-56px",
-        "\"n15\"": "-60px",
-        "\"n16\"": "-64px"
-      }
-    }
+    key: 'negative-margin-start',
+    props: {
+      responsive: 'true',
+      property: 'margin-inline-start',
+      class: 'ms',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "padding",
-    "props": {
-      "responsive": "true",
-      "property": "padding",
-      "class": "pa",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'negative-margin-end',
+    props: {
+      responsive: 'true',
+      property: 'margin-inline-end',
+      class: 'me',
+      values: {
+        '"n1"': '-4px',
+        '"n2"': '-8px',
+        '"n3"': '-12px',
+        '"n4"': '-16px',
+        '"n5"': '-20px',
+        '"n6"': '-24px',
+        '"n7"': '-28px',
+        '"n8"': '-32px',
+        '"n9"': '-36px',
+        '"n10"': '-40px',
+        '"n11"': '-44px',
+        '"n12"': '-48px',
+        '"n13"': '-52px',
+        '"n14"': '-56px',
+        '"n15"': '-60px',
+        '"n16"': '-64px',
+      },
+    },
   },
   {
-    "key": "padding-x",
-    "props": {
-      "responsive": "true",
-      "property": "padding-right padding-left",
-      "class": "px",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding',
+    props: {
+      responsive: 'true',
+      property: 'padding',
+      class: 'pa',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-y",
-    "props": {
-      "responsive": "true",
-      "property": "padding-top padding-bottom",
-      "class": "py",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-x',
+    props: {
+      responsive: 'true',
+      property: 'padding-right padding-left',
+      class: 'px',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-top",
-    "props": {
-      "responsive": "true",
-      "property": "padding-top",
-      "class": "pt",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-y',
+    props: {
+      responsive: 'true',
+      property: 'padding-top padding-bottom',
+      class: 'py',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-right",
-    "props": {
-      "responsive": "true",
-      "property": "padding-right",
-      "class": "pr",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-top',
+    props: {
+      responsive: 'true',
+      property: 'padding-top',
+      class: 'pt',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-bottom",
-    "props": {
-      "responsive": "true",
-      "property": "padding-bottom",
-      "class": "pb",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-right',
+    props: {
+      responsive: 'true',
+      property: 'padding-right',
+      class: 'pr',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-left",
-    "props": {
-      "responsive": "true",
-      "property": "padding-left",
-      "class": "pl",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-bottom',
+    props: {
+      responsive: 'true',
+      property: 'padding-bottom',
+      class: 'pb',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-start",
-    "props": {
-      "responsive": "true",
-      "property": "padding-inline-start",
-      "class": "ps",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-left',
+    props: {
+      responsive: 'true',
+      property: 'padding-left',
+      class: 'pl',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "padding-end",
-    "props": {
-      "responsive": "true",
-      "property": "padding-inline-end",
-      "class": "pe",
-      "values": {
-        "0": "0px",
-        "1": "4px",
-        "2": "8px",
-        "3": "12px",
-        "4": "16px",
-        "5": "20px",
-        "6": "24px",
-        "7": "28px",
-        "8": "32px",
-        "9": "36px",
-        "10": "40px",
-        "11": "44px",
-        "12": "48px",
-        "13": "52px",
-        "14": "56px",
-        "15": "60px",
-        "16": "64px"
-      }
-    }
+    key: 'padding-start',
+    props: {
+      responsive: 'true',
+      property: 'padding-inline-start',
+      class: 'ps',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "rounded",
-    "props": {
-      "property": "border-radius",
-      "class": "rounded",
-      "values": {
-        "0": "0",
-        "\"sm\"": "2px",
-        "null": "4px",
-        "\"lg\"": "8px",
-        "\"xl\"": "24px",
-        "\"pill\"": "9999px",
-        "\"circle\"": "50%",
-        "\"shaped\"": "24px 0"
-      }
-    }
+    key: 'padding-end',
+    props: {
+      responsive: 'true',
+      property: 'padding-inline-end',
+      class: 'pe',
+      values: {
+        '0': '0px',
+        '1': '4px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '7': '28px',
+        '8': '32px',
+        '9': '36px',
+        '10': '40px',
+        '11': '44px',
+        '12': '48px',
+        '13': '52px',
+        '14': '56px',
+        '15': '60px',
+        '16': '64px',
+      },
+    },
   },
   {
-    "key": "rounded-top",
-    "props": {
-      "property": "border-top-left-radius border-top-right-radius",
-      "class": "rounded-t",
-      "values": {
-        "0": "0",
-        "\"sm\"": "2px",
-        "null": "4px",
-        "\"lg\"": "8px",
-        "\"xl\"": "24px",
-        "\"pill\"": "9999px",
-        "\"circle\"": "50%",
-        "\"shaped\"": "24px 0"
-      }
-    }
+    key: 'rounded',
+    props: {
+      property: 'border-radius',
+      class: 'rounded',
+      values: {
+        '0': '0',
+        '"sm"': '2px',
+        null: '4px',
+        '"lg"': '8px',
+        '"xl"': '24px',
+        '"pill"': '9999px',
+        '"circle"': '50%',
+        '"shaped"': '24px 0',
+      },
+    },
   },
   {
-    "key": "rounded-end",
-    "props": {
-      "rtl": "border-top-left-radius border-bottom-left-radius"
-    }
+    key: 'rounded-top',
+    props: {
+      property: 'border-top-left-radius border-top-right-radius',
+      class: 'rounded-t',
+      values: {
+        '0': '0',
+        '"sm"': '2px',
+        null: '4px',
+        '"lg"': '8px',
+        '"xl"': '24px',
+        '"pill"': '9999px',
+        '"circle"': '50%',
+        '"shaped"': '24px 0',
+      },
+    },
   },
   {
-    "key": "rounded-bottom",
-    "props": {
-      "property": "border-bottom-left-radius border-bottom-right-radius",
-      "class": "rounded-b",
-      "values": {
-        "0": "0",
-        "\"sm\"": "2px",
-        "null": "4px",
-        "\"lg\"": "8px",
-        "\"xl\"": "24px",
-        "\"pill\"": "9999px",
-        "\"circle\"": "50%",
-        "\"shaped\"": "24px 0"
-      }
-    }
+    key: 'rounded-end',
+    props: {
+      rtl: 'border-top-left-radius border-bottom-left-radius',
+    },
   },
   {
-    "key": "rounded-start",
-    "props": {
-      "rtl": "border-top-right-radius border-bottom-right-radius"
-    }
+    key: 'rounded-bottom',
+    props: {
+      property: 'border-bottom-left-radius border-bottom-right-radius',
+      class: 'rounded-b',
+      values: {
+        '0': '0',
+        '"sm"': '2px',
+        null: '4px',
+        '"lg"': '8px',
+        '"xl"': '24px',
+        '"pill"': '9999px',
+        '"circle"': '50%',
+        '"shaped"': '24px 0',
+      },
+    },
   },
   {
-    "key": "rounded-top-start",
-    "props": {
-      "rtl": "border-top-right-radius"
-    }
+    key: 'rounded-start',
+    props: {
+      rtl: 'border-top-right-radius border-bottom-right-radius',
+    },
   },
   {
-    "key": "rounded-top-end",
-    "props": {
-      "rtl": "border-top-left-radius"
-    }
+    key: 'rounded-top-start',
+    props: {
+      rtl: 'border-top-right-radius',
+    },
   },
   {
-    "key": "rounded-bottom-end",
-    "props": {
-      "rtl": "border-bottom-left-radius"
-    }
+    key: 'rounded-top-end',
+    props: {
+      rtl: 'border-top-left-radius',
+    },
   },
   {
-    "key": "rounded-bottom-start",
-    "props": {
-      "rtl": "border-bottom-right-radius"
-    }
+    key: 'rounded-bottom-end',
+    props: {
+      rtl: 'border-bottom-left-radius',
+    },
   },
   {
-    "key": "border",
-    "props": {
-      "property": "border-width border-style border-color",
-      "class": "border",
-      "values": {
-        "0": "0 solid rgba(var(--v-border-color)",
-        "null": "thin solid rgba(var(--v-border-color)",
-        "thin": "thin solid rgba(var(--v-border-color)",
-        "sm": "1px solid rgba(var(--v-border-color)",
-        "md": "2px solid rgba(var(--v-border-color)",
-        "lg": "4px solid rgba(var(--v-border-color)",
-        "xl": "8px solid rgba(var(--v-border-color)"
-      }
-    }
+    key: 'rounded-bottom-start',
+    props: {
+      rtl: 'border-bottom-right-radius',
+    },
   },
   {
-    "key": "border-current",
-    "props": {
-      "property": "border-color",
-      "class": "border"
-    }
+    key: 'border',
+    props: {
+      property: 'border-width border-style border-color',
+      class: 'border',
+      values: {
+        '0': '0 solid rgba(var(--v-border-color)',
+        null: 'thin solid rgba(var(--v-border-color)',
+        thin: 'thin solid rgba(var(--v-border-color)',
+        sm: '1px solid rgba(var(--v-border-color)',
+        md: '2px solid rgba(var(--v-border-color)',
+        lg: '4px solid rgba(var(--v-border-color)',
+        xl: '8px solid rgba(var(--v-border-color)',
+      },
+    },
   },
   {
-    "key": "border-opacity",
-    "props": {
-      "property": "--v-border-opacity",
-      "class": "border-opacity",
-      "values": {
-        "0": "0",
-        "25": "0.25",
-        "50": "0.5",
-        "75": "0.75",
-        "100": "1",
-        "null": "0.12"
-      }
-    }
+    key: 'border-current',
+    props: {
+      property: 'border-color',
+      class: 'border',
+    },
   },
   {
-    "key": "border-top",
-    "props": {
-      "property": "border-block-start-width border-block-start-style border-block-start-color",
-      "class": "border-t",
-      "values": {
-        "0": "0 solid rgba(var(--v-border-color)",
-        "null": "thin solid rgba(var(--v-border-color)",
-        "thin": "thin solid rgba(var(--v-border-color)",
-        "sm": "1px solid rgba(var(--v-border-color)",
-        "md": "2px solid rgba(var(--v-border-color)",
-        "lg": "4px solid rgba(var(--v-border-color)",
-        "xl": "8px solid rgba(var(--v-border-color)"
-      }
-    }
+    key: 'border-opacity',
+    props: {
+      property: '--v-border-opacity',
+      class: 'border-opacity',
+      values: {
+        '0': '0',
+        '25': '0.25',
+        '50': '0.5',
+        '75': '0.75',
+        '100': '1',
+        null: '0.12',
+      },
+    },
   },
   {
-    "key": "border-end",
-    "props": {
-      "property": "border-inline-end-width border-inline-end-style border-inline-end-color",
-      "class": "border-e",
-      "values": {
-        "0": "0 solid rgba(var(--v-border-color)",
-        "null": "thin solid rgba(var(--v-border-color)",
-        "thin": "thin solid rgba(var(--v-border-color)",
-        "sm": "1px solid rgba(var(--v-border-color)",
-        "md": "2px solid rgba(var(--v-border-color)",
-        "lg": "4px solid rgba(var(--v-border-color)",
-        "xl": "8px solid rgba(var(--v-border-color)"
-      }
-    }
+    key: 'border-top',
+    props: {
+      property:
+        'border-block-start-width border-block-start-style border-block-start-color',
+      class: 'border-t',
+      values: {
+        '0': '0 solid rgba(var(--v-border-color)',
+        null: 'thin solid rgba(var(--v-border-color)',
+        thin: 'thin solid rgba(var(--v-border-color)',
+        sm: '1px solid rgba(var(--v-border-color)',
+        md: '2px solid rgba(var(--v-border-color)',
+        lg: '4px solid rgba(var(--v-border-color)',
+        xl: '8px solid rgba(var(--v-border-color)',
+      },
+    },
   },
   {
-    "key": "border-bottom",
-    "props": {
-      "property": "border-block-end-width border-block-end-style border-block-end-color",
-      "class": "border-b",
-      "values": {
-        "0": "0 solid rgba(var(--v-border-color)",
-        "null": "thin solid rgba(var(--v-border-color)",
-        "thin": "thin solid rgba(var(--v-border-color)",
-        "sm": "1px solid rgba(var(--v-border-color)",
-        "md": "2px solid rgba(var(--v-border-color)",
-        "lg": "4px solid rgba(var(--v-border-color)",
-        "xl": "8px solid rgba(var(--v-border-color)"
-      }
-    }
+    key: 'border-end',
+    props: {
+      property:
+        'border-inline-end-width border-inline-end-style border-inline-end-color',
+      class: 'border-e',
+      values: {
+        '0': '0 solid rgba(var(--v-border-color)',
+        null: 'thin solid rgba(var(--v-border-color)',
+        thin: 'thin solid rgba(var(--v-border-color)',
+        sm: '1px solid rgba(var(--v-border-color)',
+        md: '2px solid rgba(var(--v-border-color)',
+        lg: '4px solid rgba(var(--v-border-color)',
+        xl: '8px solid rgba(var(--v-border-color)',
+      },
+    },
   },
   {
-    "key": "border-start",
-    "props": {
-      "property": "border-inline-start-width border-inline-start-style border-inline-start-color",
-      "class": "border-s",
-      "values": {
-        "0": "0 solid rgba(var(--v-border-color)",
-        "null": "thin solid rgba(var(--v-border-color)",
-        "thin": "thin solid rgba(var(--v-border-color)",
-        "sm": "1px solid rgba(var(--v-border-color)",
-        "md": "2px solid rgba(var(--v-border-color)",
-        "lg": "4px solid rgba(var(--v-border-color)",
-        "xl": "8px solid rgba(var(--v-border-color)"
-      }
-    }
+    key: 'border-bottom',
+    props: {
+      property:
+        'border-block-end-width border-block-end-style border-block-end-color',
+      class: 'border-b',
+      values: {
+        '0': '0 solid rgba(var(--v-border-color)',
+        null: 'thin solid rgba(var(--v-border-color)',
+        thin: 'thin solid rgba(var(--v-border-color)',
+        sm: '1px solid rgba(var(--v-border-color)',
+        md: '2px solid rgba(var(--v-border-color)',
+        lg: '4px solid rgba(var(--v-border-color)',
+        xl: '8px solid rgba(var(--v-border-color)',
+      },
+    },
   },
   {
-    "key": "border-style",
-    "props": {
-      "property": "border-style",
-      "class": "border",
-      "values": "solid dashed dotted double none"
-    }
+    key: 'border-start',
+    props: {
+      property:
+        'border-inline-start-width border-inline-start-style border-inline-start-color',
+      class: 'border-s',
+      values: {
+        '0': '0 solid rgba(var(--v-border-color)',
+        null: 'thin solid rgba(var(--v-border-color)',
+        thin: 'thin solid rgba(var(--v-border-color)',
+        sm: '1px solid rgba(var(--v-border-color)',
+        md: '2px solid rgba(var(--v-border-color)',
+        lg: '4px solid rgba(var(--v-border-color)',
+        xl: '8px solid rgba(var(--v-border-color)',
+      },
+    },
   },
   {
-    "key": "text-align",
-    "props": {
-      "responsive": "true",
-      "property": "text-align",
-      "class": "text",
-      "values": "left right center justify start end"
-    }
+    key: 'border-style',
+    props: {
+      property: 'border-style',
+      class: 'border',
+      values: 'solid dashed dotted double none',
+    },
   },
   {
-    "key": "text-decoration",
-    "props": {
-      "property": "text-decoration",
-      "class": "text-decoration",
-      "values": "line-through none overline underline"
-    }
+    key: 'text-align',
+    props: {
+      responsive: 'true',
+      property: 'text-align',
+      class: 'text',
+      values: 'left right center justify start end',
+    },
   },
   {
-    "key": "white-space",
-    "props": {
-      "property": "white-space",
-      "class": "text",
-      "no-wrap": "nowrap",
-      "pre": "pre",
-      "pre-line": "pre-line",
-      "pre-wrap": "pre-wrap"
-    }
+    key: 'text-decoration',
+    props: {
+      property: 'text-decoration',
+      class: 'text-decoration',
+      values: 'line-through none overline underline',
+    },
   },
   {
-    "key": "overflow-wrap",
-    "props": {
-      "property": "overflow-wrap word-break",
-      "class": "text"
-    }
+    key: 'white-space',
+    props: {
+      property: 'white-space',
+      class: 'text',
+      values: {
+        'no-wrap': 'nowrap',
+        pre: 'pre',
+        'pre-line': 'pre-line',
+        'pre-wrap': 'pre-wrap',
+      },
+    },
   },
   {
-    "key": "opacity",
-    "props": {
-      "property": "opacity",
-      "class": "opacity",
-      "values": {
-        "0": "0",
-        "10": "0.1",
-        "20": "0.2",
-        "30": "0.3",
-        "40": "0.4",
-        "50": "0.5",
-        "60": "0.6",
-        "70": "0.7",
-        "80": "0.8",
-        "90": "0.9",
-        "100": "1",
-        "hover": "var(--v-hover-opacity)",
-        "focus": "var(--v-focus-opacity)",
-        "selected": "var(--v-selected-opacity)",
-        "activated": "var(--v-activated-opacity)",
-        "pressed": "var(--v-pressed-opacity)",
-        "dragged": "var(--v-dragged-opacity)"
-      }
-    }
+    key: 'overflow-wrap',
+    props: {
+      property: 'overflow-wrap word-break',
+      class: 'text',
+    },
   },
   {
-    "key": "text-opacity",
-    "props": {
-      "property": "color",
-      "class": "text"
-    }
+    key: 'opacity',
+    props: {
+      property: 'opacity',
+      class: 'opacity',
+      values: {
+        '0': '0',
+        '10': '0.1',
+        '20': '0.2',
+        '30': '0.3',
+        '40': '0.4',
+        '50': '0.5',
+        '60': '0.6',
+        '70': '0.7',
+        '80': '0.8',
+        '90': '0.9',
+        '100': '1',
+        hover: 'var(--v-hover-opacity)',
+        focus: 'var(--v-focus-opacity)',
+        selected: 'var(--v-selected-opacity)',
+        activated: 'var(--v-activated-opacity)',
+        pressed: 'var(--v-pressed-opacity)',
+        dragged: 'var(--v-dragged-opacity)',
+      },
+    },
   },
   {
-    "key": "text-overflow",
-    "props": {
-      "property": "white-space overflow text-overflow",
-      "class": "text"
-    }
+    key: 'text-opacity',
+    props: {
+      property: 'color',
+      class: 'text',
+    },
   },
   {
-    "key": "typography",
-    "props": {
-      "responsive": "true",
-      "property": "(\n          font-size"
-    }
+    key: 'text-overflow',
+    props: {
+      property: 'white-space overflow text-overflow',
+      class: 'text',
+    },
   },
   {
-    "key": "text-transform",
-    "props": {
-      "property": "text-transform",
-      "class": "text",
-      "values": "none capitalize lowercase uppercase"
-    }
+    key: 'typography',
+    props: {
+      responsive: 'true',
+      property: '(\n          font-size',
+    },
   },
   {
-    "key": "font-weight",
-    "props": {
-      "property": "font-weight",
-      "class": "font-weight",
-      "values": {
-        "\"thin\"": "100",
-        "\"light\"": "300",
-        "\"regular\"": "400",
-        "\"medium\"": "500",
-        "\"bold\"": "700",
-        "\"black\"": "900"
-      }
-    }
+    key: 'text-transform',
+    props: {
+      property: 'text-transform',
+      class: 'text',
+      values: 'none capitalize lowercase uppercase',
+    },
   },
   {
-    "key": "font-italic",
-    "props": {
-      "property": "font-style",
-      "class": "font",
-      "values": "italic"
-    }
+    key: 'font-weight',
+    props: {
+      property: 'font-weight',
+      class: 'font-weight',
+      values: {
+        '"thin"': '100',
+        '"light"': '300',
+        '"regular"': '400',
+        '"medium"': '500',
+        '"bold"': '700',
+        '"black"': '900',
+      },
+    },
   },
   {
-    "key": "text-mono",
-    "props": {
-      "property": "font-family",
-      "class": "text"
-    }
+    key: 'font-italic',
+    props: {
+      property: 'font-style',
+      class: 'font',
+      values: 'italic',
+    },
   },
   {
-    "key": "position",
-    "props": {
-      "property": "position",
-      "class": "position",
-      "values": "static relative fixed absolute sticky"
-    }
+    key: 'text-mono',
+    props: {
+      property: 'font-family',
+      class: 'text',
+    },
   },
   {
-    "key": "top",
-    "props": {
-      "property": "top",
-      "class": "top",
-      "values": "0"
-    }
+    key: 'position',
+    props: {
+      property: 'position',
+      class: 'position',
+      values: 'static relative fixed absolute sticky',
+    },
   },
   {
-    "key": "right",
-    "props": {
-      "property": "right",
-      "class": "right",
-      "values": "0"
-    }
+    key: 'top',
+    props: {
+      property: 'top',
+      class: 'top',
+      values: '0',
+    },
   },
   {
-    "key": "bottom",
-    "props": {
-      "property": "bottom",
-      "class": "bottom",
-      "values": "0"
-    }
+    key: 'right',
+    props: {
+      property: 'right',
+      class: 'right',
+      values: '0',
+    },
   },
   {
-    "key": "left",
-    "props": {
-      "property": "left",
-      "class": "left",
-      "values": "0"
-    }
+    key: 'bottom',
+    props: {
+      property: 'bottom',
+      class: 'bottom',
+      values: '0',
+    },
   },
   {
-    "key": "cursor",
-    "props": {
-      "property": "cursor",
-      "class": "cursor",
-      "values": "auto default pointer wait text move help not-allowed progress grab grabbing none"
-    }
+    key: 'left',
+    props: {
+      property: 'left',
+      class: 'left',
+      values: '0',
+    },
   },
   {
-    "key": "fill-height",
-    "props": {
-      "property": "height",
-      "class": "fill"
-    }
+    key: 'cursor',
+    props: {
+      property: 'cursor',
+      class: 'cursor',
+      values:
+        'auto default pointer wait text move help not-allowed progress grab grabbing none',
+    },
   },
   {
-    "key": "height",
-    "props": {
-      "0": "0",
-      "25": "25%",
-      "50": "50%",
-      "75": "75%",
-      "100": "100%",
-      "property": "height",
-      "responsive": "true",
-      "class": "h",
-      "screen": "100vh"
-    }
+    key: 'fill-height',
+    props: {
+      property: 'height',
+      class: 'fill',
+    },
   },
   {
-    "key": "height-screen",
-    "props": {
-      "property": "height",
-      "class": "h"
-    }
+    key: 'height',
+    props: {
+      '0': '0',
+      '25': '25%',
+      '50': '50%',
+      '75': '75%',
+      '100': '100%',
+      property: 'height',
+      responsive: 'true',
+      class: 'h',
+      screen: '100vh',
+    },
   },
   {
-    "key": "width",
-    "props": {
-      "0": "0",
-      "25": "25%",
-      "33": "33%",
-      "50": "50%",
-      "66": "66%",
-      "75": "75%",
-      "100": "100%",
-      "property": "width",
-      "responsive": "true",
-      "class": "w"
-    }
-  }
+    key: 'height-screen',
+    props: {
+      property: 'height',
+      class: 'h',
+    },
+  },
+  {
+    key: 'width',
+    props: {
+      '0': '0',
+      '25': '25%',
+      '33': '33%',
+      '50': '50%',
+      '66': '66%',
+      '75': '75%',
+      '100': '100%',
+      property: 'width',
+      responsive: 'true',
+      class: 'w',
+    },
+  },
 ] as const;
