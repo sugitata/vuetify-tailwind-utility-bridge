@@ -193,7 +193,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "gap",
       "class": "ga",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -203,7 +222,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "row-gap",
       "class": "gr",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -213,7 +251,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "column-gap",
       "class": "gc",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -223,7 +280,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin",
       "class": "ma",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -233,7 +309,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-right margin-left",
       "class": "mx",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -243,7 +338,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-top margin-bottom",
       "class": "my",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -253,7 +367,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-top",
       "class": "mt",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -263,7 +396,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-right",
       "class": "mr",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -273,7 +425,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-bottom",
       "class": "mb",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -283,7 +454,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-left",
       "class": "ml",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -293,7 +483,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-inline-start",
       "class": "ms",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -303,7 +512,26 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-inline-end",
       "class": "me",
-      "values": "map.merge(variables.$spacers",
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "auto": "auto"
+      },
       "(auto": "auto"
     }
   },
@@ -313,7 +541,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin",
       "class": "ma",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -322,7 +567,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-right margin-left",
       "class": "mx",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -331,7 +593,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-top margin-bottom",
       "class": "my",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -340,7 +619,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-top",
       "class": "mt",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -349,7 +645,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-right",
       "class": "mr",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -358,7 +671,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-bottom",
       "class": "mb",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -367,7 +697,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-left",
       "class": "ml",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -376,7 +723,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-inline-start",
       "class": "ms",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -385,7 +749,24 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "margin-inline-end",
       "class": "me",
-      "values": "variables.$negative-spacers"
+      "values": {
+        "\"n1\"": "-4px",
+        "\"n2\"": "-8px",
+        "\"n3\"": "-12px",
+        "\"n4\"": "-16px",
+        "\"n5\"": "-20px",
+        "\"n6\"": "-24px",
+        "\"n7\"": "-28px",
+        "\"n8\"": "-32px",
+        "\"n9\"": "-36px",
+        "\"n10\"": "-40px",
+        "\"n11\"": "-44px",
+        "\"n12\"": "-48px",
+        "\"n13\"": "-52px",
+        "\"n14\"": "-56px",
+        "\"n15\"": "-60px",
+        "\"n16\"": "-64px"
+      }
     }
   },
   {
@@ -394,7 +775,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding",
       "class": "pa",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -403,7 +802,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-right padding-left",
       "class": "px",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -412,7 +829,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-top padding-bottom",
       "class": "py",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -421,7 +856,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-top",
       "class": "pt",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -430,7 +883,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-right",
       "class": "pr",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -439,7 +910,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-bottom",
       "class": "pb",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -448,7 +937,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-left",
       "class": "pl",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -457,7 +964,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-inline-start",
       "class": "ps",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -466,7 +991,25 @@ export const vuetifyUtilities = [
       "responsive": "true",
       "property": "padding-inline-end",
       "class": "pe",
-      "values": "variables.$spacers"
+      "values": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "11": "44px",
+        "12": "48px",
+        "13": "52px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px"
+      }
     }
   },
   {
@@ -474,7 +1017,16 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-radius",
       "class": "rounded",
-      "values": "variables.$rounded"
+      "values": {
+        "0": "0",
+        "\"sm\"": "2px",
+        "null": "4px",
+        "\"lg\"": "8px",
+        "\"xl\"": "24px",
+        "\"pill\"": "9999px",
+        "\"circle\"": "50%",
+        "\"shaped\"": "24px 0"
+      }
     }
   },
   {
@@ -482,7 +1034,16 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-top-left-radius border-top-right-radius",
       "class": "rounded-t",
-      "values": "variables.$rounded"
+      "values": {
+        "0": "0",
+        "\"sm\"": "2px",
+        "null": "4px",
+        "\"lg\"": "8px",
+        "\"xl\"": "24px",
+        "\"pill\"": "9999px",
+        "\"circle\"": "50%",
+        "\"shaped\"": "24px 0"
+      }
     }
   },
   {
@@ -496,7 +1057,16 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-bottom-left-radius border-bottom-right-radius",
       "class": "rounded-b",
-      "values": "variables.$rounded"
+      "values": {
+        "0": "0",
+        "\"sm\"": "2px",
+        "null": "4px",
+        "\"lg\"": "8px",
+        "\"xl\"": "24px",
+        "\"pill\"": "9999px",
+        "\"circle\"": "50%",
+        "\"shaped\"": "24px 0"
+      }
     }
   },
   {
@@ -534,7 +1104,15 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-width border-style border-color",
       "class": "border",
-      "values": "variables.$borders"
+      "values": {
+        "0": "0 solid rgba(var(--v-border-color)",
+        "null": "thin solid rgba(var(--v-border-color)",
+        "thin": "thin solid rgba(var(--v-border-color)",
+        "sm": "1px solid rgba(var(--v-border-color)",
+        "md": "2px solid rgba(var(--v-border-color)",
+        "lg": "4px solid rgba(var(--v-border-color)",
+        "xl": "8px solid rgba(var(--v-border-color)"
+      }
     }
   },
   {
@@ -549,7 +1127,14 @@ export const vuetifyUtilities = [
     "props": {
       "property": "--v-border-opacity",
       "class": "border-opacity",
-      "values": "variables.$border-opacities"
+      "values": {
+        "0": "0",
+        "25": "0.25",
+        "50": "0.5",
+        "75": "0.75",
+        "100": "1",
+        "null": "0.12"
+      }
     }
   },
   {
@@ -557,7 +1142,15 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-block-start-width border-block-start-style border-block-start-color",
       "class": "border-t",
-      "values": "variables.$borders"
+      "values": {
+        "0": "0 solid rgba(var(--v-border-color)",
+        "null": "thin solid rgba(var(--v-border-color)",
+        "thin": "thin solid rgba(var(--v-border-color)",
+        "sm": "1px solid rgba(var(--v-border-color)",
+        "md": "2px solid rgba(var(--v-border-color)",
+        "lg": "4px solid rgba(var(--v-border-color)",
+        "xl": "8px solid rgba(var(--v-border-color)"
+      }
     }
   },
   {
@@ -565,7 +1158,15 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-inline-end-width border-inline-end-style border-inline-end-color",
       "class": "border-e",
-      "values": "variables.$borders"
+      "values": {
+        "0": "0 solid rgba(var(--v-border-color)",
+        "null": "thin solid rgba(var(--v-border-color)",
+        "thin": "thin solid rgba(var(--v-border-color)",
+        "sm": "1px solid rgba(var(--v-border-color)",
+        "md": "2px solid rgba(var(--v-border-color)",
+        "lg": "4px solid rgba(var(--v-border-color)",
+        "xl": "8px solid rgba(var(--v-border-color)"
+      }
     }
   },
   {
@@ -573,7 +1174,15 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-block-end-width border-block-end-style border-block-end-color",
       "class": "border-b",
-      "values": "variables.$borders"
+      "values": {
+        "0": "0 solid rgba(var(--v-border-color)",
+        "null": "thin solid rgba(var(--v-border-color)",
+        "thin": "thin solid rgba(var(--v-border-color)",
+        "sm": "1px solid rgba(var(--v-border-color)",
+        "md": "2px solid rgba(var(--v-border-color)",
+        "lg": "4px solid rgba(var(--v-border-color)",
+        "xl": "8px solid rgba(var(--v-border-color)"
+      }
     }
   },
   {
@@ -581,7 +1190,15 @@ export const vuetifyUtilities = [
     "props": {
       "property": "border-inline-start-width border-inline-start-style border-inline-start-color",
       "class": "border-s",
-      "values": "variables.$borders"
+      "values": {
+        "0": "0 solid rgba(var(--v-border-color)",
+        "null": "thin solid rgba(var(--v-border-color)",
+        "thin": "thin solid rgba(var(--v-border-color)",
+        "sm": "1px solid rgba(var(--v-border-color)",
+        "md": "2px solid rgba(var(--v-border-color)",
+        "lg": "4px solid rgba(var(--v-border-color)",
+        "xl": "8px solid rgba(var(--v-border-color)"
+      }
     }
   },
   {
@@ -632,7 +1249,25 @@ export const vuetifyUtilities = [
     "props": {
       "property": "opacity",
       "class": "opacity",
-      "values": "variables.$opacities"
+      "values": {
+        "0": "0",
+        "10": "0.1",
+        "20": "0.2",
+        "30": "0.3",
+        "40": "0.4",
+        "50": "0.5",
+        "60": "0.6",
+        "70": "0.7",
+        "80": "0.8",
+        "90": "0.9",
+        "100": "1",
+        "hover": "var(--v-hover-opacity)",
+        "focus": "var(--v-focus-opacity)",
+        "selected": "var(--v-selected-opacity)",
+        "activated": "var(--v-activated-opacity)",
+        "pressed": "var(--v-pressed-opacity)",
+        "dragged": "var(--v-dragged-opacity)"
+      }
     }
   },
   {
@@ -669,7 +1304,14 @@ export const vuetifyUtilities = [
     "props": {
       "property": "font-weight",
       "class": "font-weight",
-      "values": "variables.$font-weights"
+      "values": {
+        "\"thin\"": "100",
+        "\"light\"": "300",
+        "\"regular\"": "400",
+        "\"medium\"": "500",
+        "\"bold\"": "700",
+        "\"black\"": "900"
+      }
     }
   },
   {
