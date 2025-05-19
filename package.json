@@ -15,9 +15,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sugitata/vuetify-tailwind-bridge"
+    "url": "https://github.com/sugitata/vuetify-tailwind-utility-bridge"
   },
-  "author": "YOUR_NAME",
+  "bugs": {
+    "url": "https://github.com/sugitata/vuetify-tailwind-utility-bridge/issues"
+  },
+  "homepage": "https://github.com/sugitata/vuetify-tailwind-utility-bridge#readme",
+  "author": "sugitata",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
