@@ -43,6 +43,7 @@ Add the following to your `.vscode/settings.json`:
 
 - RTL mode
 - Expand css variables (e.g. `var(–v-hover-opacity);`)
+- partial typography utilities(see src/generated/vuetifyUtilities.ts)
 
 ---
 

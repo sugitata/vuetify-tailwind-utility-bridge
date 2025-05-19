@@ -1065,13 +1065,13 @@ export const vuetifyUtilities = [
       },
     },
   },
-  {
-    key: 'rounded-end',
-    props: {
-      property:
-        '(ltr: border-top-right-radius border-bottom-right-radius, rtl: border-top-left-radius border-bottom-left-radius',
-    },
-  },
+  // {
+  //   key: 'rounded-end',
+  //   props: {
+  //     property:
+  //       '(ltr: border-top-right-radius border-bottom-right-radius, rtl: border-top-left-radius border-bottom-left-radius',
+  //   },
+  // },
   {
     key: 'rounded-bottom',
     props: {
@@ -1089,13 +1089,13 @@ export const vuetifyUtilities = [
       },
     },
   },
-  {
-    key: 'rounded-start',
-    props: {
-      property:
-        '(ltr: border-top-left-radius border-bottom-left-radius, rtl: border-top-right-radius border-bottom-right-radius',
-    },
-  },
+  // {
+  //   key: 'rounded-start',
+  //   props: {
+  //     property:
+  //       '(ltr: border-top-left-radius border-bottom-left-radius, rtl: border-top-right-radius border-bottom-right-radius',
+  //   },
+  // },
   // {
   //   key: 'rounded-top-start',
   //   props: {
@@ -1304,16 +1304,16 @@ export const vuetifyUtilities = [
       },
     },
   },
-  {
-    key: 'text-opacity',
-    props: {
-      property: 'color',
-      class: 'text',
-      values: {
-        'high-emphasis': 'rgba(var(--v-theme-on-background',
-      },
-    },
-  },
+  // {
+  //   key: 'text-opacity',
+  //   props: {
+  //     property: 'color',
+  //     class: 'text',
+  //     values: {
+  //       'high-emphasis': 'rgba(var(--v-theme-on-background',
+  //     },
+  //   },
+  // },
   // {
   //   key: 'text-overflow',
   //   props: {
@@ -1322,120 +1322,121 @@ export const vuetifyUtilities = [
   //     values: '(truncate: nowrap hidden ellipsis',
   //   },
   // },
-  // {
-  //   key: 'typography',
-  //   props: {
-  //     responsive: 'true',
-  //     property:
-  //       '(\n          font-size,\n          font-weight,\n          line-height,\n          letter-spacing,\n          font-family,\n          text-transform',
-  //     values: {
-  //       h1: {
-  //         'font-size': '6rem',
-  //         'font-weight': 300,
-  //         'line-height': 1,
-  //         'letter-spacing': '-0.015625em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       h2: {
-  //         'font-size': '3.75rem',
-  //         'font-weight': 300,
-  //         'line-height': 1,
-  //         'letter-spacing': '-0.0083333333em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       h3: {
-  //         'font-size': '3rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.05,
-  //         'letter-spacing': 'normal',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       h4: {
-  //         'font-size': '2.125rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.175,
-  //         'letter-spacing': '0.0073529412em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       h5: {
-  //         'font-size': '1.5rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.333,
-  //         'letter-spacing': 'normal',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       h6: {
-  //         'font-size': '1.25rem',
-  //         'font-weight': 500,
-  //         'line-height': 1.6,
-  //         'letter-spacing': '0.0125em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       'subtitle-1': {
-  //         'font-size': '1rem',
-  //         'font-weight': 'normal',
-  //         'line-height': 1.75,
-  //         'letter-spacing': '0.009375em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       'subtitle-2': {
-  //         'font-size': '0.875rem',
-  //         'font-weight': 500,
-  //         'line-height': 1.6,
-  //         'letter-spacing': '0.0071428571em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       'body-1': {
-  //         'font-size': '1rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.5,
-  //         'letter-spacing': '0.03125em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       'body-2': {
-  //         'font-size': '0.875rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.425,
-  //         'letter-spacing': '0.0178571429em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       button: {
-  //         'font-size': '0.875rem',
-  //         'font-weight': 500,
-  //         'line-height': 2.6,
-  //         'letter-spacing': '0.0892857143em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'uppercase',
-  //       },
-  //       caption: {
-  //         'font-size': '0.75rem',
-  //         'font-weight': 400,
-  //         'line-height': 1.667,
-  //         'letter-spacing': '0.0333333333em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'none',
-  //       },
-  //       overline: {
-  //         'font-size': '0.75rem',
-  //         'font-weight': 500,
-  //         'line-height': 2.667,
-  //         'letter-spacing': '0.1666666667em',
-  //         'font-family': ['Roboto', 'sans-serif'],
-  //         'text-transform': 'uppercase',
-  //       },
-  //     },
-  //   },
-  // },
+  {
+    key: 'typography',
+    props: {
+      responsive: 'true',
+      class: 'text',
+      property:
+        '(\n          font-size,\n          font-weight,\n          line-height,\n          letter-spacing,\n          font-family,\n          text-transform',
+      values: {
+        h1: {
+          'font-size': '6rem',
+          'font-weight': 300,
+          'line-height': 1,
+          'letter-spacing': '-0.015625em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        h2: {
+          'font-size': '3.75rem',
+          'font-weight': 300,
+          'line-height': 1,
+          'letter-spacing': '-0.0083333333em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        h3: {
+          'font-size': '3rem',
+          'font-weight': 400,
+          'line-height': 1.05,
+          'letter-spacing': 'normal',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        h4: {
+          'font-size': '2.125rem',
+          'font-weight': 400,
+          'line-height': 1.175,
+          'letter-spacing': '0.0073529412em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        h5: {
+          'font-size': '1.5rem',
+          'font-weight': 400,
+          'line-height': 1.333,
+          'letter-spacing': 'normal',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        h6: {
+          'font-size': '1.25rem',
+          'font-weight': 500,
+          'line-height': 1.6,
+          'letter-spacing': '0.0125em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        'subtitle-1': {
+          'font-size': '1rem',
+          'font-weight': 'normal',
+          'line-height': 1.75,
+          'letter-spacing': '0.009375em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        'subtitle-2': {
+          'font-size': '0.875rem',
+          'font-weight': 500,
+          'line-height': 1.6,
+          'letter-spacing': '0.0071428571em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        'body-1': {
+          'font-size': '1rem',
+          'font-weight': 400,
+          'line-height': 1.5,
+          'letter-spacing': '0.03125em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        'body-2': {
+          'font-size': '0.875rem',
+          'font-weight': 400,
+          'line-height': 1.425,
+          'letter-spacing': '0.0178571429em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        button: {
+          'font-size': '0.875rem',
+          'font-weight': 500,
+          'line-height': 2.6,
+          'letter-spacing': '0.0892857143em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'uppercase',
+        },
+        caption: {
+          'font-size': '0.75rem',
+          'font-weight': 400,
+          'line-height': 1.667,
+          'letter-spacing': '0.0333333333em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'none',
+        },
+        overline: {
+          'font-size': '0.75rem',
+          'font-weight': 500,
+          'line-height': 2.667,
+          'letter-spacing': '0.1666666667em',
+          'font-family': ['Roboto', 'sans-serif'],
+          'text-transform': 'uppercase',
+        },
+      },
+    },
+  },
   {
     key: 'text-transform',
     props: {
