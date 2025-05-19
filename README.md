@@ -38,6 +38,7 @@ Add the following to your `.vscode/settings.json`:
 - 🧩 Enables Tailwind IntelliSense / autocomplete in VSCode
 - 📦 Lightweight and framework-agnostic plugin
 - 🪜 Perfect for incremental migration from Vuetify to Tailwind
+- Theme injection (only Colors)
 
 ## Unsupported Features
 
@@ -68,6 +69,8 @@ export default {
     // Disable built-in spacing, borderRadius, etc if needed
   },
   plugins: [vuetifyPlugin()],
+  // or your Vuetify theme
+  // plugins: [vuetifyPlugin(theme: ThemeDefinition)],
 };
 ```
 
