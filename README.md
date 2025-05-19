@@ -71,8 +71,8 @@ module.exports = {
   corePlugins: [],
   content: ['**/*.vue', '**/*.js', '**/*.ts'],
   plugins: [vuetifyUtilityBridgePlugin.vuetifyPlugin()],
-  // or your Vuetify theme (theme: Vuetify ThemeDefinition)
-  // plugins: [vuetifyUtilityBridgePlugin.vuetifyPlugin(theme)],
+  // or your Vuetify theme (yourTheme: Vuetify ThemeDefinition)
+  // plugins: [vuetifyUtilityBridgePlugin.vuetifyPlugin({ theme: yourTheme })],
 };
 ```
 
