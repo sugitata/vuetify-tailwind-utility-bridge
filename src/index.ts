@@ -26,9 +26,15 @@ export const vuetifyPlugin = plugin(function ({ addUtilities }) {
           propList.forEach((p: string) => {
             style[p] = String(v);
           });
-          addUtilities({
-            [`.${className}-${k}`]: style,
-          });
+          if (k === 'null') {
+            addUtilities({
+              [`.${className}`]: style,
+            });
+          } else {
+            addUtilities({
+              [`.${className}-${k}`]: style,
+            });
+          }
         });
       } else if (typeof values === 'string') {
         values.split(' ').forEach((val: string) => {

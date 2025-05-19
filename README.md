@@ -39,6 +39,11 @@ Add the following to your `.vscode/settings.json`:
 - 📦 Lightweight and framework-agnostic plugin
 - 🪜 Perfect for incremental migration from Vuetify to Tailwind
 
+## Unsupported Features
+
+- RTL mode
+- Expand css variables (e.g. `var(–v-hover-opacity);`)
+
 ---
 
 ## 📦 Installation
