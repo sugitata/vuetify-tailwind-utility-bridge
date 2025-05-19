@@ -18,6 +18,30 @@ export const vuetifyPlugin = plugin(function ({ addUtilities }) {
     const className = props.class || util.key;
     const property = props.property;
     const values = props.values;
+    // typographyユーティリティの場合は特別扱い
+    // if (
+    //   util.key === 'typography' &&
+    //   typeof values === 'object' &&
+    //   values !== null
+    // ) {
+    //   Object.entries(values).forEach(([k, v]) => {
+    //     if (typeof v === 'object' && v !== null) {
+    //       // font-familyが配列の場合はカンマ区切りに変換
+    //       const style: Record<string, string> = {};
+    //       Object.entries(v).forEach(([prop, val]) => {
+    //         if (Array.isArray(val)) {
+    //           style[prop] = val.join(', ');
+    //         } else {
+    //           style[prop] = String(val);
+    //         }
+    //       });
+    //       addUtilities({
+    //         [`.${className}-${k}`]: style,
+    //       });
+    //     }
+    //   });
+    //   return;
+    // }
     if (className && property && values) {
       const propList = property.split(' ');
       if (typeof values === 'object' && values !== null) {

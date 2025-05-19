@@ -49,7 +49,10 @@ export const vuetifyUtilities = [
       print: 'true',
       property: 'float',
       class: 'float',
-      start: 'right',
+      values: {
+        end: 'left',
+        start: 'right',
+      },
     },
   },
   {
@@ -59,7 +62,10 @@ export const vuetifyUtilities = [
       print: 'true',
       property: 'float',
       class: 'float',
-      start: 'left',
+      values: {
+        end: 'right',
+        start: 'left',
+      },
     },
   },
   {
@@ -67,18 +73,21 @@ export const vuetifyUtilities = [
     props: {
       responsive: 'true',
       property: 'flex',
-      '1-1': '1 1 auto',
-      '1-0': '1 0 auto',
-      '0-1': '0 1 auto',
-      '0-0': '0 0 auto',
-      '1-1-100': '1 1 100%',
-      '1-0-100': '1 0 100%',
-      '0-1-100': '0 1 100%',
-      '0-0-100': '0 0 100%',
-      '1-1-0': '1 1 0',
-      '1-0-0': '1 0 0',
-      '0-1-0': '0 1 0',
-      '0-0-0': '0 0 0',
+      values: {
+        fill: '1 1 auto',
+        '1-1': '1 1 auto',
+        '1-0': '1 0 auto',
+        '0-1': '0 1 auto',
+        '0-0': '0 0 auto',
+        '1-1-100': '1 1 100%',
+        '1-0-100': '1 0 100%',
+        '0-1-100': '0 1 100%',
+        '0-0-100': '0 0 100%',
+        '1-1-0': '1 1 0',
+        '1-0-0': '1 0 0',
+        '0-1-0': '0 1 0',
+        '0-0-0': '0 0 0',
+      },
     },
   },
   {
@@ -96,7 +105,10 @@ export const vuetifyUtilities = [
       responsive: 'true',
       property: 'flex-grow',
       class: 'flex',
-      'grow-1': '1',
+      values: {
+        'grow-0': '0',
+        'grow-1': '1',
+      },
     },
   },
   {
@@ -105,7 +117,10 @@ export const vuetifyUtilities = [
       responsive: 'true',
       property: 'flex-shrink',
       class: 'flex',
-      'shrink-1': '1',
+      values: {
+        'shrink-0': '0',
+        'shrink-1': '1',
+      },
     },
   },
   {
@@ -123,11 +138,14 @@ export const vuetifyUtilities = [
       responsive: 'true',
       property: 'justify-content',
       class: 'justify',
-      end: 'flex-end',
-      center: 'center',
-      'space-between': 'space-between',
-      'space-around': 'space-around',
-      'space-evenly': 'space-evenly',
+      values: {
+        start: 'flex-start',
+        end: 'flex-end',
+        center: 'center',
+        'space-between': 'space-between',
+        'space-around': 'space-around',
+        'space-evenly': 'space-evenly',
+      },
     },
   },
   {
@@ -136,10 +154,13 @@ export const vuetifyUtilities = [
       responsive: 'true',
       property: 'align-items',
       class: 'align',
-      end: 'flex-end',
-      center: 'center',
-      baseline: 'baseline',
-      stretch: 'stretch',
+      values: {
+        start: 'flex-start',
+        end: 'flex-end',
+        center: 'center',
+        baseline: 'baseline',
+        stretch: 'stretch',
+      },
     },
   },
   {
@@ -147,12 +168,15 @@ export const vuetifyUtilities = [
     props: {
       responsive: 'true',
       property: 'align-content',
-      end: 'flex-end',
-      center: 'center',
-      'space-between': 'space-between',
-      'space-around': 'space-around',
-      'space-evenly': 'space-evenly',
-      stretch: 'stretch',
+      values: {
+        start: 'flex-start',
+        end: 'flex-end',
+        center: 'center',
+        'space-between': 'space-between',
+        'space-around': 'space-around',
+        'space-evenly': 'space-evenly',
+        stretch: 'stretch',
+      },
     },
   },
   {
@@ -160,16 +184,21 @@ export const vuetifyUtilities = [
     props: {
       responsive: 'true',
       property: 'align-self',
-      start: 'flex-start',
-      end: 'flex-end',
-      center: 'center',
-      baseline: 'baseline',
-      stretch: 'stretch',
+      values: {
+        auto: 'auto',
+        start: 'flex-start',
+        end: 'flex-end',
+        center: 'center',
+        baseline: 'baseline',
+        stretch: 'stretch',
+      },
     },
   },
   {
     key: 'order',
     props: {
+      responsive: 'true',
+      property: 'order',
       values: {
         '0': '0',
         '1': '1',
@@ -184,10 +213,9 @@ export const vuetifyUtilities = [
         '10': '10',
         '11': '11',
         '12': '12',
+        first: '-1',
+        last: '13',
       },
-      responsive: 'true',
-      property: 'order',
-      last: '13',
     },
   },
   {
@@ -216,7 +244,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -245,7 +272,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -274,7 +300,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -303,7 +328,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -332,7 +356,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -361,7 +384,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -390,7 +412,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -419,7 +440,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -448,7 +468,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -477,7 +496,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -506,7 +524,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -535,7 +552,6 @@ export const vuetifyUtilities = [
         '16': '64px',
         auto: 'auto',
       },
-      '(auto': 'auto',
     },
   },
   {
@@ -1052,7 +1068,8 @@ export const vuetifyUtilities = [
   {
     key: 'rounded-end',
     props: {
-      rtl: 'border-top-left-radius border-bottom-left-radius',
+      property:
+        '(ltr: border-top-right-radius border-bottom-right-radius, rtl: border-top-left-radius border-bottom-left-radius',
     },
   },
   {
@@ -1075,33 +1092,36 @@ export const vuetifyUtilities = [
   {
     key: 'rounded-start',
     props: {
-      rtl: 'border-top-right-radius border-bottom-right-radius',
+      property:
+        '(ltr: border-top-left-radius border-bottom-left-radius, rtl: border-top-right-radius border-bottom-right-radius',
     },
   },
-  {
-    key: 'rounded-top-start',
-    props: {
-      rtl: 'border-top-right-radius',
-    },
-  },
-  {
-    key: 'rounded-top-end',
-    props: {
-      rtl: 'border-top-left-radius',
-    },
-  },
-  {
-    key: 'rounded-bottom-end',
-    props: {
-      rtl: 'border-bottom-left-radius',
-    },
-  },
-  {
-    key: 'rounded-bottom-start',
-    props: {
-      rtl: 'border-bottom-right-radius',
-    },
-  },
+  // {
+  //   key: 'rounded-top-start',
+  //   props: {
+  //     property: '(ltr: border-top-left-radius, rtl: border-top-right-radius',
+  //   },
+  // },
+  // {
+  //   key: 'rounded-top-end',
+  //   props: {
+  //     property: '(ltr: border-top-right-radius, rtl: border-top-left-radius',
+  //   },
+  // },
+  // {
+  //   key: 'rounded-bottom-end',
+  //   props: {
+  //     property:
+  //       '(ltr: border-bottom-right-radius, rtl: border-bottom-left-radius',
+  //   },
+  // },
+  // {
+  //   key: 'rounded-bottom-start',
+  //   props: {
+  //     property:
+  //       '(ltr: border-bottom-left-radius, rtl: border-bottom-right-radius',
+  //   },
+  // },
   {
     key: 'border',
     props: {
@@ -1124,7 +1144,7 @@ export const vuetifyUtilities = [
       property: 'border-color',
       class: 'border',
       values: {
-        current: '–v-border-color: currentColor;',
+        current: 'currentColor',
       },
     },
   },
@@ -1242,6 +1262,7 @@ export const vuetifyUtilities = [
       property: 'white-space',
       class: 'text',
       values: {
+        wrap: 'normal',
         'no-wrap': 'nowrap',
         pre: 'pre',
         'pre-line': 'pre-line',
@@ -1249,13 +1270,14 @@ export const vuetifyUtilities = [
       },
     },
   },
-  {
-    key: 'overflow-wrap',
-    props: {
-      property: 'overflow-wrap word-break',
-      class: 'text',
-    },
-  },
+  // {
+  //   key: 'overflow-wrap',
+  //   props: {
+  //     property: 'overflow-wrap word-break',
+  //     class: 'text',
+  //     values: '(break: break-word',
+  //   },
+  // },
   {
     key: 'opacity',
     props: {
@@ -1287,22 +1309,133 @@ export const vuetifyUtilities = [
     props: {
       property: 'color',
       class: 'text',
+      values: {
+        'high-emphasis': 'rgba(var(--v-theme-on-background',
+      },
     },
   },
-  {
-    key: 'text-overflow',
-    props: {
-      property: 'white-space overflow text-overflow',
-      class: 'text',
-    },
-  },
-  {
-    key: 'typography',
-    props: {
-      responsive: 'true',
-      property: '(\n          font-size',
-    },
-  },
+  // {
+  //   key: 'text-overflow',
+  //   props: {
+  //     property: 'white-space overflow text-overflow',
+  //     class: 'text',
+  //     values: '(truncate: nowrap hidden ellipsis',
+  //   },
+  // },
+  // {
+  //   key: 'typography',
+  //   props: {
+  //     responsive: 'true',
+  //     property:
+  //       '(\n          font-size,\n          font-weight,\n          line-height,\n          letter-spacing,\n          font-family,\n          text-transform',
+  //     values: {
+  //       h1: {
+  //         'font-size': '6rem',
+  //         'font-weight': 300,
+  //         'line-height': 1,
+  //         'letter-spacing': '-0.015625em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       h2: {
+  //         'font-size': '3.75rem',
+  //         'font-weight': 300,
+  //         'line-height': 1,
+  //         'letter-spacing': '-0.0083333333em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       h3: {
+  //         'font-size': '3rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.05,
+  //         'letter-spacing': 'normal',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       h4: {
+  //         'font-size': '2.125rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.175,
+  //         'letter-spacing': '0.0073529412em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       h5: {
+  //         'font-size': '1.5rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.333,
+  //         'letter-spacing': 'normal',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       h6: {
+  //         'font-size': '1.25rem',
+  //         'font-weight': 500,
+  //         'line-height': 1.6,
+  //         'letter-spacing': '0.0125em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       'subtitle-1': {
+  //         'font-size': '1rem',
+  //         'font-weight': 'normal',
+  //         'line-height': 1.75,
+  //         'letter-spacing': '0.009375em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       'subtitle-2': {
+  //         'font-size': '0.875rem',
+  //         'font-weight': 500,
+  //         'line-height': 1.6,
+  //         'letter-spacing': '0.0071428571em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       'body-1': {
+  //         'font-size': '1rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.5,
+  //         'letter-spacing': '0.03125em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       'body-2': {
+  //         'font-size': '0.875rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.425,
+  //         'letter-spacing': '0.0178571429em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       button: {
+  //         'font-size': '0.875rem',
+  //         'font-weight': 500,
+  //         'line-height': 2.6,
+  //         'letter-spacing': '0.0892857143em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'uppercase',
+  //       },
+  //       caption: {
+  //         'font-size': '0.75rem',
+  //         'font-weight': 400,
+  //         'line-height': 1.667,
+  //         'letter-spacing': '0.0333333333em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'none',
+  //       },
+  //       overline: {
+  //         'font-size': '0.75rem',
+  //         'font-weight': 500,
+  //         'line-height': 2.667,
+  //         'letter-spacing': '0.1666666667em',
+  //         'font-family': ['Roboto', 'sans-serif'],
+  //         'text-transform': 'uppercase',
+  //       },
+  //     },
+  //   },
+  // },
   {
     key: 'text-transform',
     props: {
@@ -1339,6 +1472,9 @@ export const vuetifyUtilities = [
     props: {
       property: 'font-family',
       class: 'text',
+      values: {
+        mono: 'monospace',
+      },
     },
   },
   {
@@ -1395,22 +1531,26 @@ export const vuetifyUtilities = [
     props: {
       property: 'height',
       class: 'fill',
+      values: {
+        height: '100%',
+      },
     },
   },
   {
     key: 'height',
     props: {
+      property: 'height',
+      responsive: 'true',
+      class: 'h',
       values: {
         '0': '0',
         '25': '25%',
         '50': '50%',
         '75': '75%',
         '100': '100%',
+        auto: 'auto',
         screen: '100vh',
       },
-      property: 'height',
-      responsive: 'true',
-      class: 'h',
     },
   },
   {
@@ -1418,11 +1558,17 @@ export const vuetifyUtilities = [
     props: {
       property: 'height',
       class: 'h',
+      values: {
+        screen: '100dvh',
+      },
     },
   },
   {
     key: 'width',
     props: {
+      property: 'width',
+      responsive: 'true',
+      class: 'w',
       values: {
         '0': '0',
         '25': '25%',
@@ -1431,10 +1577,8 @@ export const vuetifyUtilities = [
         '66': '66%',
         '75': '75%',
         '100': '100%',
+        auto: 'auto',
       },
-      responsive: 'true',
-      property: 'width',
-      class: 'w',
     },
   },
 ] as const;

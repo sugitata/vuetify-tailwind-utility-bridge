@@ -1,0 +1,50 @@
+@use 'sass:math';
+@use 'sass:meta';
+@use 'sass:string';
+@function to-json($value) {
+  @if type-of($value) == 'map' {
+    $result: '{';
+    $first: true;
+    @each $k, $v in $value {
+      @if not $first {
+        $result: $result + ',';
+      }
+      $result: $result + '"' + $k + '":' + to-json($v);
+      $first: false;
+    }
+    @return $result + '}';
+  } @else if type-of($value) == 'list' {
+    $result: '[';
+    $first: true;
+    @each $item in $value {
+      @if not $first {
+        $result: $result + ',';
+      }
+      @if type-of($item) == 'string' {
+        $result: $result + '"' + $item + '"';
+      } @else if type-of($item) == 'number' {
+        @if math.unit($item) == '' {
+          $result: $result + $item;
+        } @else {
+          $result: $result + '"' + $item + '"';
+        }
+      } @else if type-of($item) == 'list' {
+        $result: $result + to-json($item);
+      } @else {
+        $result: $result + to-json($item);
+      }
+      $first: false;
+    }
+    @return $result + ']';
+  } @else if type-of($value) == 'string' {
+    @return '"' + $value + '"';
+  } @else if type-of($value) == 'number' {
+    @if math.unit($value) == '' {
+      @return '#{$value}';
+    } @else {
+      @return '"#{$value}"';
+    }
+  } @else {
+    @return '"#{$value}"';
+  }
+}

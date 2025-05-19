@@ -1,0 +1,3 @@
+@use 'vuetify/lib/styles/settings/variables' as variables;
+@use './_to_json' as *;
+@debug to-json(variables.$flat-typography);

@@ -73,7 +73,7 @@ function getSassVariableValue(variable: string): any {
     { encoding: 'utf-8' }
   );
   // stderr全体を出力
-  console.log('SASS stderr:', result.stderr);
+  // console.log('SASS stderr:', result.stderr);
   // stderrから@debug出力を抽出（大文字小文字問わず）
   const debugLine = result.stderr
     .split('\n')
@@ -91,6 +91,41 @@ function getSassVariableValue(variable: string): any {
   return obj;
 }
 
+// --- SassのmapをJSON文字列で取得する関数（to-json.scssを利用） ---
+function getSassMapAsJson(variable: string): any {
+  // scripts/_to_json.scss を使う
+  const toJsonPath = path.resolve(process.cwd(), 'scripts/_to_json.scss');
+  const tmpSass = `@use 'vuetify/lib/styles/settings/variables' as variables;\n@use './_to_json' as *;\n@debug to-json(variables.${variable});`;
+  const tmpPath = path.resolve(process.cwd(), 'scripts/tmp-get-map.scss');
+  fs.writeFileSync(tmpPath, tmpSass, 'utf-8');
+  const result = spawnSync(
+    'npx',
+    ['sass', '--load-path=node_modules', '--load-path=scripts', tmpPath],
+    { encoding: 'utf-8' }
+  );
+  // stderrから@debug出力を抽出
+  const debugLine = result.stderr
+    .split('\n')
+    .find((line) => /debug:/i.test(line));
+  if (!debugLine) return null;
+  // 最初の{から最後の}までを抜き出す
+  const firstBrace = debugLine.indexOf('{');
+  const lastBrace = debugLine.lastIndexOf('}');
+  let jsonStr = '';
+  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+    jsonStr = debugLine.substring(firstBrace, lastBrace + 1);
+  } else {
+    jsonStr = debugLine.replace(/^[^:]*debug:\s*/i, '').trim();
+  }
+  console.log('DEBUG jsonStr for', variable, ':', jsonStr);
+  try {
+    return JSON.parse(jsonStr);
+  } catch (e) {
+    console.error('JSON parse error for', variable, jsonStr);
+    return null;
+  }
+}
+
 const spacersValue = getSassVariableValue('$spacers');
 console.log('SASS $spacers:', spacersValue);
 const roundedValue = getSassVariableValue('$rounded');
@@ -105,6 +140,9 @@ const fontWeightsValue = getSassVariableValue('$font-weights');
 console.log('SASS $font-weights:', fontWeightsValue);
 const negativeSpacersValue = getSassVariableValue('$negative-spacers');
 console.log('SASS $negative-spacers:', negativeSpacersValue);
+
+const flatTypographyValue = getSassMapAsJson('$flat-typography');
+console.log('SASS $flat-typography:', flatTypographyValue);
 
 // --- ユーティリティ情報の値をSass変数で置換 ---
 function expandValues(
@@ -141,10 +179,91 @@ function expandValues(
   if (val === 'variables.$negative-spacers') {
     return { ...negativeSpacers };
   }
+  // --- カッコで始まるSassのmapやlistをobjectにパース ---
+  if (/^\(.*\)$|^\(\n/.test(val.trim())) {
+    // 先頭と末尾のカッコを除去
+    const inner = val
+      .trim()
+      .replace(/^\(|\)$/g, '')
+      .trim();
+    const obj: Record<string, string> = {};
+    // 1行ずつ分割し、key: value形式を抽出（カンマがなくてもOK）
+    const lines = inner.split(/\n/).filter(Boolean);
+    if (lines.length === 1) {
+      // 1行しかない場合もkey: valueを抽出
+      const m = lines[0].match(/^\s*'?([\w-]+)'?\s*:\s*([^,]+)\s*,?$/);
+      if (m) {
+        obj[m[1]] = m[2].trim();
+      }
+    } else {
+      lines.forEach((line) => {
+        const m = line.match(/^\s*'?([\w-]+)'?\s*:\s*([^,]+)\s*,?$/);
+        if (m) {
+          obj[m[1]] = m[2].trim();
+        }
+      });
+    }
+    return obj;
+  }
   return val;
 }
 
-// ユーティリティ情報を抽出
+// --- ユーティリティ情報を抽出 ---
+function parseProps(body: string, skipValues = false): Record<string, any> {
+  const props: Record<string, any> = {};
+  let i = 0;
+  let key = '';
+  let value = '';
+  let inKey = true;
+  let paren = 0;
+  let buffer = '';
+  while (i < body.length) {
+    const c = body[i];
+    if (inKey) {
+      if (c === ':') {
+        key = buffer.trim();
+        buffer = '';
+        inKey = false;
+      } else {
+        buffer += c;
+      }
+    } else {
+      if (c === '(') paren++;
+      if (c === ')') paren--;
+      if ((c === ',' && paren === 0) || i === body.length - 1) {
+        if (i === body.length - 1 && c !== ',') buffer += c;
+        value = buffer.trim();
+        // valuesプロパティだけ特別扱い
+        if (key === 'values') {
+          if (!skipValues && value && value !== 'variables.$flat-typography') {
+            // 通常のSass変数展開
+            props.values = expandValues(
+              value,
+              spacersValue,
+              roundedValue,
+              bordersValue,
+              borderOpacitiesValue,
+              opacitiesValue,
+              fontWeightsValue,
+              negativeSpacersValue
+            );
+          }
+        } else {
+          props[key] = value;
+        }
+        buffer = '';
+        inKey = true;
+        key = '';
+        value = '';
+      } else {
+        buffer += c;
+      }
+    }
+    i++;
+  }
+  return props;
+}
+
 const utilities: Array<{ key: string; props: Record<string, any> }> = [];
 const mapRoot = (mapAst.nodes[0] as any)?.nodes[0]?.value;
 if (typeof mapRoot !== 'string') {
@@ -155,26 +274,31 @@ let match;
 while ((match = utilRegex.exec(mapRoot)) !== null) {
   const key = match[1];
   const body = match[2];
-  const props: Record<string, any> = {};
-  body.split(',').forEach((line) => {
-    const kv = line.split(':').map((s) => s.trim());
-    if (kv.length === 2) {
-      if (kv[0] === 'values') {
-        props.values = expandValues(
-          kv[1],
-          spacersValue,
-          roundedValue,
-          bordersValue,
-          borderOpacitiesValue,
-          opacitiesValue,
-          fontWeightsValue,
-          negativeSpacersValue
-        );
-      } else {
-        props[kv[0]] = kv[1];
+  let props: Record<string, any> = {};
+  if (key === 'typography' && flatTypographyValue) {
+    // typographyだけはvaluesをプロパティ名付きobjectに変換
+    props = parseProps(body, true); // valuesはスキップ
+    // propertyリストを配列化
+    const propertyList = (props.property || '')
+      .replace(/[()\n]/g, '')
+      .split(',')
+      .map((s: string) => s.trim())
+      .filter(Boolean);
+    // flatTypographyValue: { h1: [6rem, 300, ...], ... }
+    const valuesObj: Record<string, Record<string, any>> = {};
+    Object.entries(flatTypographyValue).forEach(([k, arr]: [string, any]) => {
+      if (Array.isArray(arr)) {
+        const obj: Record<string, any> = {};
+        propertyList.forEach((prop: string, idx: number) => {
+          obj[prop] = arr[idx];
+        });
+        valuesObj[k] = obj;
       }
-    }
-  });
+    });
+    props.values = valuesObj;
+  } else {
+    props = parseProps(body);
+  }
   utilities.push({ key, props });
 }
 console.log(utilities);
