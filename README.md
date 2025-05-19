@@ -12,6 +12,7 @@ This package is designed with **two main use cases**:
 ### 1. Autocomplete support for Vuetify utility classes in VSCode
 
 - Enables Tailwind CSS IntelliSense (autocomplete) for Vuetify utility classes like `.ma-1`, `.text-primary`, `.elevation-4`, etc.
+  - [see Vuetify utilities](https://vuetifyjs.com/en/styles/borders/#usage)
 - This does **not require Tailwind CSS to be installed in your project.**
 - This was the **original motivation** behind creating this plugin — enabling autocomplete even in a Vuetify-only project.
 
@@ -58,51 +59,24 @@ npm install vuetify-tailwind-bridge
 
 ## 🛠 Usage
 
-```ts
-// tailwind.config.ts
-import { vuetifyPlugin } from 'vuetify-tailwind-bridge';
+1. Add [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) in your VSCode
+2. Add this plugin on your tailwindcss.config.js
+   1. You don't need to install tailwindcss if you want to use this module for autocompletion.
 
-export default {
-  content: ['./src/**/*.{vue,js,ts}'],
-  corePlugins: {
-    preflight: false,
-    // Disable built-in spacing, borderRadius, etc if needed
-  },
-  plugins: [vuetifyPlugin()],
-  // or your Vuetify theme
-  // plugins: [vuetifyPlugin(theme: ThemeDefinition)],
+```js
+const vuetifyUtilityBridgePlugin = require('vuetify-tailwind-utility-bridge');
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  corePlugins: [],
+  content: ['**/*.vue', '**/*.js', '**/*.ts'],
+  plugins: [vuetifyUtilityBridgePlugin.vuetifyPlugin()],
+  // or your Vuetify theme (theme: Vuetify ThemeDefinition)
+  // plugins: [vuetifyUtilityBridgePlugin.vuetifyPlugin(theme)],
 };
 ```
 
----
-
-## 🧩 Supported Utilities (WIP)
-
-### Display
-
-```html
-.d-flex .d-block .d-none .d-inline .d-inline-flex
-```
-
-### Flex
-
-```html
-.flex-column .justify-center .align-end .flex-nowrap
-```
-
-### Spacing
-
-```html
-.ma-1 .pa-2 .mt-3 .pl-0
-```
-
-### Border Radius
-
-```html
-.rounded .rounded-0 .rounded-lg .rounded-circle
-```
-
-> More utilities coming soon!
+![](image/2025-05-19-14-57-37.png)
 
 ---
 
