@@ -1,4 +1,4 @@
-# vuetify-tailwind-bridge
+# vuetify-tailwind-utility-bridge
 
 **Tailwind CSS plugin** that brings Vuetify-style utility classes to your project.  
 Enables Figma design token alignment, Tailwind auto-completion, and incremental migration from Vuetify to Tailwind.
@@ -52,7 +52,7 @@ Add the following to your `.vscode/settings.json`:
 ## 📦 Installation
 
 ```bash
-npm install vuetify-tailwind-bridge
+npm install vuetify-tailwind-utility-bridge
 ```
 
 ---
