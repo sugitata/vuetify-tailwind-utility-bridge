@@ -77,7 +77,7 @@ export const vuetifyPlugin = plugin.withOptions(
         const colorUtils: Record<string, Record<string, string>> = {};
         Object.entries(options.theme.colors).forEach(([key, value]) => {
           colorUtils[`.text-${key}`] = { color: String(value) };
-          // colorUtils[`.bg-${key}`] = { backgroundColor: String(value) };
+          colorUtils[`.bg-${key}`] = { backgroundColor: String(value) };
         });
         addUtilities(colorUtils);
       }
